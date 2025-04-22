@@ -1,44 +1,60 @@
- * CEMS Project Overview *
+👥 User Interface
+Authentication:
+Users can sign in or register through a dedicated login page. Admin access is restricted to a predefined username and password.
 
-  -> Objective
-     Develop an Event Management Website that allows users to view and register for events, while providing admins with tools to         manage events effectively.
+🧑‍🎓 User Dashboard
+Event Listings:
+All upcoming events are showcased in visually distinct cards displaying the event name, description, date, and venue, along with a "Register" button.
 
--> Features
+My Registrations:
+A personalized section where users can review the list of events they have registered for.
 
-  1) User Interface
-  -> Login/Register Users log in via a login page; a specific admin username and password are used for admin access.
+🛠️ Admin Panel
+Admin Login:
+Secured admin login using a designated username and password.
 
-  2) User View
-  -> Event Listings: Displays events in boxes with title, description, date, location, and a "Register" button for user 
-     registration (name, roll number, email).
-  -> My Registrations: Users can view all events they registered for in a dedicated section.
+Event Controls:
+Admins can seamlessly add, edit, view, and delete events.
 
-#) Admin View
-  -> Admin Login: Accessed with a specified admin username and password.
-  -> Event Management: Admins can create, view, update, and delete events.
-  -> View Participants: Admins can view the list of participants for each event.
+Participant Overview:
+View a list of registered users for each event, categorized accordingly.
 
--> Database Structure
+🗃️ Database Design
+Database Used: SQLite
 
-  1) Database: SQLite
-     Tables:
-     events: Stores event details (title, description, date, location).
-     registrations: Stores user registration data (name, roll number, email).
+Tables:
 
--> Team Members:
+events: Contains event-specific details like title, description, date, and location.
 
-  Aditi Shirke - 23102C0053
-  Asees Kaur Dham - 23102C0050
-  Vedanti Ghanekar - 23102C0008
+registrations: Stores participant data including name, roll number, and email address.
 
--> Technologies Used
-  App: Streamlit (Python)
-  Database: SQLite (for CRUD operations)
+👨‍💻 Team Members
+Aditi Shirke – 23102C0053
 
--> Steps to run this project
+Asees Kaur Dham – 23102C0050
 
-Step 1 : Download the zip file
-Step 2 : Extract the zip file
-Step 3 : Open this file in cmd
-Step 4 : Run this command ' pip install -r requirements.txt ' (This will install all the libraries for the project to run)
-Step 5 : Next, run this command ' streamlit run app.py ' (This will run the website)
+Vedanti Ghanekar – 23102C0008
+
+🧰 Technologies Implemented
+Frontend & Backend Framework: Streamlit (Python)
+
+Database: SQLite (used for storing and managing all records)
+
+🚀 How to Run the Project
+Download and unzip the project folder.
+
+Open the folder in Command Prompt.
+
+Install the required dependencies using:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Launch the application with:
+
+bash
+Copy
+Edit
+streamlit run app.py
+The web interface will open in your browser, ready to use.
