@@ -27,12 +27,9 @@
 
 -> Team Members:
 
-  Aryan Racha - 23102C0055
-  Shreyas Gursale - 23102C0061
-  Shruti Gupta - 23102C0051
-  Sarah Cheulkar - 23102C0060
-  Purvaj Gaonkar - 23102C0083
-  Anish Murugaperumal - 23102C0076
+  Aditi Shirke - 23102C0053
+  Asees Kaur Dham - 23102C0050
+  Vedanti Ghanekar - 23102C0008
 
 -> Technologies Used
   App: Streamlit (Python)
